@@ -1,0 +1,68 @@
+eloria-salon-booking-python/
+│
+├── backend/
+│   ├── eloria/
+│   │   ├── __init__.py
+│   │   ├── settings.py
+│   │   ├── urls.py
+│   │   ├── wsgi.py
+│   │   └── asgi.py
+│   │
+│   ├── apps/
+│   │   ├── services/
+│   │   │   ├── migrations/
+│   │   │   ├── __init__.py
+│   │   │   ├── admin.py
+│   │   │   ├── apps.py
+│   │   │   ├── models.py
+│   │   │   ├── serializers.py
+│   │   │   ├── views.py
+│   │   │   ├── urls.py
+│   │   │   └── tests.py
+│   │   │
+│   │   ├── bookings/
+│   │   │   ├── migrations/
+│   │   │   ├── __init__.py
+│   │   │   ├── admin.py
+│   │   │   ├── apps.py
+│   │   │   ├── models.py
+│   │   │   ├── serializers.py
+│   │   │   ├── views.py
+│   │   │   ├── urls.py
+│   │   │   └── tests.py
+│   │   │
+│   │   ├── users/
+│   │   │   ├── migrations/
+│   │   │   ├── __init__.py
+│   │   │   ├── admin.py
+│   │   │   ├── apps.py
+│   │   │   ├── models.py
+│   │   │   ├── serializers.py
+│   │   │   ├── views.py
+│   │   │   └── urls.py
+│   │   │
+│   │   └── reviews/
+│   │       ├── migrations/
+│   │       ├── __init__.py
+│   │       ├── admin.py
+│   │       ├── models.py
+│   │       ├── serializers.py
+│   │       └── views.py
+│   │
+│   ├── static/
+│   ├── media/
+│   ├── templates/
+│   ├── manage.py
+│   ├── requirements.txt
+│   ├── .env
+│   └── Dockerfile
+│
+├── frontend/
+│   ├── src/
+│   ├── public/
+│   ├── package.json
+│   └── (same React structure as before)
+│
+├── docker-compose.yml
+├── .gitignore
+└── README.md
