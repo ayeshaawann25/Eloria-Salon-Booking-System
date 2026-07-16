@@ -1,0 +1,15 @@
+Django==4.2.7
+djangorestframework==3.14.0
+django-cors-headers==4.3.1
+djangorestframework-simplejwt==5.3.0
+django-filter==23.5
+pillow==10.1.0
+python-dotenv==1.0.0
+psycopg2-binary==2.9.9  # or use sqlite3 for development
+django-ckeditor==6.6.1
+django-allauth==0.57.0
+celery==5.3.4
+redis==5.0.1
+django-redis==5.4.0
+djangorestframework-datetime==1.1.2
+drf-yasg==1.21.7  # API documentation
